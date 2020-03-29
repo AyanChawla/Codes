@@ -1,0 +1,31 @@
+Game of Names
+Send Feedback
+On a Sunday morning, some friends have joined to play: Game of Names. There is an N x N board. Each player is playing, turn by turn. At the turn of ith player, the player places first character of its name at one of the unfilled cells. The first player who places its character for 3 consecutive vertical, horizontal or diagonal cells is the winner.
+You are provided a board with some filled and some unfilled cells. You have to tell the winner. If there is no winner, then you must print “ongoing”.
+Input format:
+The first line of input contains a single integer N (1 <= N <= 30), which denotes a board of size N x N. 
+Each of the following N lines of input contains N characters. These denote N characters of a particular row. For unfilled cells are denoted by ‘.’ character and filled cells will be denoted by an uppercase letter.
+Constraints
+Time Limit: 1 second
+Output format
+Print the winning character or “ongoing”, as described in the task above.
+Sample Input 1:
+3
+XOC
+XOC
+X..
+Sample Output 1:
+X
+Sample Input 2:
+4
+....
+..A.
+AAB.
+.B.B
+Sample Output 2:
+Ongoing
+
+
+
+SOURCE--------------------------------------------------
+https://codezen.codingninjas.com/practice/96424/4179/game-of-names
