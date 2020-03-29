@@ -1,0 +1,59 @@
+Hungry Children
+Level EASY
+There are N chocolates on the table. The teacher is distributing the chocolates one by one. Mannerless and hungry children don’t wait for their chance and come again and again for the chocolates. The teacher is looking over this. She scolds a child if at a given time, the child has already taken more chocolates than count of all the chocolates with other children.
+You are given name of child who takes ith chocolate. You have to tell number of times teacher had to scold.
+Input format:
+The first line of input contains an integer N (1 <= N <= 100). The following N lines contains a string of not more than 20 lowercase letters, denoting the name of the child who took a chocolate.
+Constraints:
+Time Limit: 1 second
+Output format:
+The first and only line of output contains number of scoldings teacher has to make.
+Sample Input 1:
+17 
+a 
+b 
+b 
+a 
+a 
+a 
+c 
+a 
+b 
+b 
+c 
+b 
+b 
+b 
+b 
+b 
+b
+Sample Output 1:
+4
+Explanation:
+It is given that there are 4 children with the name a, b, c, d. 
+1st chocolate: a  
+2nd chocolate: b 
+3rd chocolate: b 
+4th chocolate: a 
+5th chocolate: a 
+6th chocolate: a, before taking this chocolate, the child with the name ‘a’ has already taken 3 chocolates, which was greater than chocolates taken by remaining children. So, teacher scolds the child. 
+7th chocolate: c 
+8th chocolate: a, before taking this chocolate, the child with the name ‘a’ has already taken 4 chocolates, which was greater than chocolates taken by remaining children. So, teacher scolds the child. 
+9th chocolate: b 
+10th chocolate: b 
+11th chocolate: c 
+12th chocolate: b 
+13th chocolate: b 
+14th chocolate: b 
+15th chocolate: b 
+16th chocolate: b, before taking this chocolate, the child with the name ‘b’ has already taken 8 chocolates, which was greater than chocolates taken by remaining children. So, teacher scolds the child.   
+17th chocolate: b, before taking this chocolate, the child with the name ‘b’ has already taken 9 chocolates, which was greater than chocolates taken by remaining children. So, teacher scolds the child.
+
+So, teacher scolds the children total 4 times. Hence, the answer is 4.         
+
+
+
+
+
+SOURCE----------------------------------------------------------------------------------------
+https://codezen.codingninjas.com/practice/96422/4158/hungry-children
